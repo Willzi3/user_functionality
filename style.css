@@ -18,3 +18,20 @@ padding: 10px;
     display: flex;
     flex-direction: column;
 }
+
+.profile-info{
+    border: 1px solid black;
+}
+
+.update{
+    border: 1px solid black;
+}
+
+.profile-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-option{
+    display: flex;
+}

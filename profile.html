@@ -3,12 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1 id="welcomeMessage"></h1>
-    <h1 id="emailMessage"></h1>
-    <button onclick="logout()">Logout</button>
+    <div class="profile-info">
+        <h1 id="welcomeMessage"></h1>
+        <h1 id="emailMessage"></h1>
+        <button onclick="logout()">Logout</button>
+        <button class="update" id="update" onclick="update()">Update Profile</button>
+    </div>
+    <div class="container" id="container">
+        
+    </div>
+
 <script src="app.js"></script> 
 </body>
 </html>
